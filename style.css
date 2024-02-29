@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header {
+   background-color: antiquewhite; 
+} */
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  height: 40px !important;
+}
+ul img {
+  width: 3%;
+  margin-left: 80px;
+  border-radius: 11px;
+}
+ul li a {
+  font-size: 29px;
+  margin: 11px;
+}
+
+.sign {
+  list-style: none;
+  display: flex;
+  margin-left: 660px;
+}
+.sign li a {
+  text-decoration: none;
+  margin-right: 22px;
+}
+.lo {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(248, 1, 161);
+  background: none;
+  font-size: 19px;
+}
+
+
+.lol {
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+}
+
+.btn {
+  margin-left: 22px;
+  padding: 6px 18px;
+  background-color: rgb(251, 7, 255);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn1 {
+  padding: 6px 18px;
+  border-radius: 10px;
+}
+
+.do {
+  width: 100%;
+  height: 90vh;
+}
+.container {
+  background: url("./img/national-fast-food-day.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 88vh;
+  color: rgb(43, 238, 17);
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+
+.firstHalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf {
+  width: 30%;
+}
+
+.secondHalf img {
+  width: 190%;
+  border: 2px solid white;
+  border-radius: 30px;
+  display: block;
+  margin: 25px;
+  transition: transform 0.3s ease;
+}
+.secondHalf img:hover {
+  transform: scale(1.2);
+}
+
+.text-big {
+  font-size: 41px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+.btn3 {
+  margin-top: 11px;
+  padding: 11px 0px;
+  background: none;
+  font-size: 22px;
+  border-radius: 11px;
+}
+.btn4 {
+  margin-top: 11px;
+  padding: 11px 0px;
+  background-color: rgb(255, 0, 204);
+  font-size: 22px;
+  border-radius: 11px;
+}
+@keyframes back{
+  0%{
+    background-color: rgb(131, 131, 237);
+  }
+  25%{
+    background-color: rgb(183, 179, 179);
+  }
+  50%{
+    background-color: rgb(118, 250, 118);
+  }
+  75%{
+    background-color: blueviolet;
+  }
+  100%{
+    background-color: cyan;
+  }
+}
+.us{
+  position: relative;
+  width: 100%;
+  height: 22px;
+  text-align: center;
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: back 3s  infinite linear;
+}
+
+@keyframes like{
+  0%{
+    transform: rotate(0deg )
+  }
+  100%{
+    transform: rotate(360deg )
+  }
+}
+.us img {
+  width: 5%;
+  margin: 32px ;
+  border-radius: 11px;
+  animation: like 3s  infinite linear;
+}
+.about{
+  display: flex;
+}
+.about img {
+  width: 41%;
+  margin: 60px 70px;
+  border-radius: 33px;
+  /* background-image: url(img/maxresdefault.jpg); */
+  
+}
+.about img:hover {
+  /* background-image: url(img/mcdonaldsglobal.jpg); */
+  width: 50%;
+  margin: 60px 70px;
+  border-radius: 33px;
+}
+
+.text{
+  width: 50%;
+  margin: 90px 0px;
+  margin-right: 90px;
+  font-size: 23PX;
+}
+.btn5 {
+  margin-top: 11px;
+  padding: 11px 22px;
+  background: none;
+  font-size: 22px;
+  border-radius: 11px;
+}
+.btn6 {
+  margin-top: 11px;
+  padding: 11px 22px;
+  background-color: rgb(255, 0, 204);
+  font-size: 22px;
+  border-radius: 11px;
+}
+.sec{
+  display: flex;
+}
+.form{
+  width: 50%;
+  margin: 60px 70px;
+  font-size: 23PX;
+}
+.opp{
+  width: 50%;
+}
+.opp img{
+  width: 90%;
+  border-radius: 33px;
+}
+.section3{
+  display: flex;
+  margin-top: 0px;
+}
+.order{
+  margin: 100px 100px;
+  display: flex;
+}
+.order img{
+  border-radius: 22px;
+}
+.pop{
+  margin-left: 42px;
+  margin-top: 20px;
+  width: 50%;
+  font-size: 25px;
+}
+.section4{
+  /* background-color: cadetblue; */
+  display: flex;
+}
+.order1{
+  /* margin: 22px 100px; */
+  display: flex;
+  margin-left: 100px;
+}
+.order1 img{
+  border-radius: 22px;
+  width: 35%;
+}
+.pop1{
+  margin-left: 42px;
+  /* margin-top: 20px; */
+  width: 50%;
+  font-size: 25px;
+}
+.section5{
+  /* background-color: cadetblue; */
+  display: flex;
+  margin-top: 33px;
+}
+.order2{
+  /* margin: 22px 100px; */
+  display: flex;
+  margin-left: 100px;
+}
+.order2 img{
+  border-radius: 22px;
+  width: 35%;
+}
+.pop2{
+  margin-left: 42px;
+  /* margin-top: 20px; */
+  width: 50%;
+  font-size: 25px;
+}
+.section6{
+  /* background-color: cadetblue; */
+  display: flex;
+  margin-top: 33px;
+}
+.order3{
+  /* margin: 22px 100px; */
+  display: flex;
+  margin-left: 100px;
+}
+.order3 img{
+  border-radius: 22px;
+  width: 35%;
+}
+.pop3{
+  margin-left: 42px;
+  /* margin-top: 20px; */
+  width: 50%;
+  font-size: 25px;
+}
+.section7{
+  /* background-color: cadetblue; */
+  display: flex;
+  margin-top: 33px;
+}
+.order4{
+  /* margin: 22px 100px; */
+  display: flex;
+  margin-left: 100px;
+}
+.order4 img{
+  border-radius: 22px;
+  width: 35%;
+}
+.pop4{
+  margin-left: 42px;
+  /* margin-top: 20px; */
+  width: 50%;
+  font-size: 25px;
+}
+.background img{
+  margin-top: 50px;
+  width: 100%;
+  height: 420px;
+}
+.section11 {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+}
+
+.section11 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  height: 333px;
+}
+
+.small{
+  text-align: center;
+  background-color: rgb(71, 71, 252);
+  margin-top: 0px;
+  padding: 22px;
+  border-radius: 12px;
+}
+h4{
+  text-align: center;
+  font-size: 22px;
+}
+.btn77 {
+  margin-top: 11px;
+  padding: 11px 22px;
+  color: ;
+  /* background-color: rgb(255, 0, 204); */
+  font-size: 22px;
+  border-radius: 11px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 33px;
+}
+.btn77:hover{
+  background-color: white;
+  color: rgb(255, 0, 204) ;
+}
+@keyframes bike{
+  0%{
+    left: -222px;
+  }
+  100%{
+    left: 120%;
+  }
+}
+.logo img{
+  width: 10%;
+  bottom: 0px;
+  left: -222px;
+  position: fixed;
+  animation: bike 8s infinite linear;
+  
+}
+.section12 img{
+  width: 100%;
+  height: 333px;
+}
+footer{
+  background-color: antiquewhite;
+  font-size: 22px;
+  padding: 22px;
+  text-align: center;
+}

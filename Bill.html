@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://www.foodpanda.com/wp-content/uploads/2023/02/cropped-fp-favicon-32x32.png"
+  sizes="32x32" />
+  <title>Order Confirmation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  .confirmation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .centered-logo {
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+  }
+
+  .centered-text {
+    text-align: center;
+  }
+
+  .print-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .print-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<body>
+  <div class="confirmation-container">
+    <img src="img/green-tick-check-mark-icon-simple-style-vector-8375981.jpg" alt="Logo" class="centered-logo">
+    <h1 class="centered-text">Your Order is Confirmed!</h1>
+    <p class="centered-text">Thank you for placing your order. We appreciate your business.</p>
+    <p>Your order details:</p>
+    <ul>
+      <li>Product: Product Name</li>
+      <li>Price: $20.00</li>
+      <li>Quantity: 1</li>
+    </ul>
+    <p class="centered-text">Total amount: $20.00</p>
+    <p class="centered-text">Payment Method: Credit Card</p>
+    <p class="centered-text">Expected delivery date: September 20, 2023</p>
+    <button class="print-button" onclick="window.print()">Print Confirmation</button>
+  </div>
+</body>
+
+</html>
